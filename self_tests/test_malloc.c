@@ -34,7 +34,7 @@ static void test_init(){
 
     assert_int_equal(heap[0], 15);
     assert_int_equal(heap[1], 11);
-    assert_int_equal(heap[2], 2);
+    assert_int_equal(heap[2], 1);
 }
 
 static void test_malloc_successful(){

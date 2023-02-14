@@ -29,4 +29,6 @@ int main(){
 
     heap = sbrk(256);
     printf("heap: %p, current brek is %p \n", heap, sbrk(0));
+
+    return 0;
 }

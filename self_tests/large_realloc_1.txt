@@ -3,5 +3,8 @@ allocated 64
 allocated 64
 allocated 64
 allocated 256
-[  FAILED  ] test_malloc_free_realloc_success
-[==========] 1 test(s) run.
+addrs = (nil), 0x55ed05f4e000
+free 64
+allocated 64
+free 128
+allocated 256

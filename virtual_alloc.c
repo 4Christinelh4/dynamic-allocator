@@ -547,7 +547,7 @@ uint8_t get_max_block_after_free(void *heapstart, uint8_t required_size, uint8_t
 
 void *virtual_realloc(void *heapstart, void * ptr, uint32_t new_size){
     // if new size (2^m) <= old size: first free, then malloc
-    uint8_t *heap = heapstart;
+    uint32_t *heap = heapstart;
 
     void *data = heapstart + ALL_OFFSET + (uint64_t )pow(2, heap[0]);
 
