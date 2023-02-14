@@ -1,0 +1,7 @@
+allocated 64
+allocated 64
+allocated 64
+allocated 64
+allocated 256
+[  FAILED  ] test_malloc_free_realloc_success
+[==========] 1 test(s) run.

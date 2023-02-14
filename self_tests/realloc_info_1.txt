@@ -1,0 +1,11 @@
+allocated 64
+allocated 64
+allocated 64
+allocated 64
+allocated 64
+allocated 64
+free 64
+allocated 64
+allocated 64
+free 64
+allocated 128
